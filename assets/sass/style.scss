@@ -1,0 +1,20 @@
+@import "abstracts/variables";
+@import "base/normalize";
+@import "base/typography";
+@import "pages/main";
+@import "pages/donate";
+
+@media only screen and (max-width: 1599px) {
+  @import "pages/main-1000";
+  @import "pages/donate-1000";
+}
+
+@media only screen and (max-width: 999px) {
+  @import "pages/main-640";
+  @import "pages/donate-640";
+}
+
+@media only screen and (max-width: 639px) {
+  @import "pages/main-320";
+  @import "pages/donate-320";
+}
